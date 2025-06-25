@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://isauradlsantos.github.io/lazyops",
+  "homepage": "https://www.lazy-ops.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
