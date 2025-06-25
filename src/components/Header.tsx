@@ -6,7 +6,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
         <div className="flex items-center space-x-3">
           <img 
-            src="/lazy-ops.png" 
+            src="/LAZY OPS.png" 
             alt="Lazy Ops" 
             className="w-10 h-10"
           />

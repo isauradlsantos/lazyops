@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="max-w-6xl mx-auto text-center space-y-8">
         <div className="flex items-center justify-center space-x-4">
           <img 
-            src="/lazy-ops.png" 
+            src="/LAZY OPS.png" 
             alt="Lazy Ops" 
             className="w-12 h-12"
           />
