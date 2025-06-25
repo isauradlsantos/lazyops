@@ -11,7 +11,7 @@ const NextStepsSection: React.FC = () => {
     },
     {
       number: '2',
-      title: '15-min Quick-Win Call',
+      title: '30-min Quick-Win Call',
       description: 'pinpoint highest-impact levers',
       icon: Phone
     },
