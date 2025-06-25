@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
         <div className="relative">
           <div className="absolute inset-0 bg-lazy-green/20 rounded-3xl blur-3xl scale-110"></div>
           <img 
-            src="/linkedin photo isaura-Photoroom.png" 
+            src="/isaura-photo.png" 
             alt="Isaura Santos" 
             className="relative w-full max-w-lg mx-auto rounded-3xl shadow-2xl"
           />
