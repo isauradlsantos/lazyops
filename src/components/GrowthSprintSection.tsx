@@ -110,7 +110,7 @@ const GrowthSprintSection: React.FC = () => {
             </div>
             <div className="bg-black/50 rounded-2xl p-8 border border-white/10">
               <h4 className="text-xl font-bold text-lazy-green mb-4">3-Month Quick-Wins Sprint</h4>
-              <p className="text-4xl font-bold text-white mb-4">€15,000</p>
+              <p className="text-4xl font-bold text-white mb-4">€18,000</p>
               <p className="text-white/60">+ VAT if applicable (reduced scope)</p>
             </div>
           </div>
