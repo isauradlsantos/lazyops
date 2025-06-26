@@ -1,26 +1,26 @@
 import React from 'react';
-import { Clock, Target, Zap } from 'lucide-react';
+import { Clock, Target, Zap, ArrowRight } from 'lucide-react';
 
 const GrowthSprintSection: React.FC = () => {
   const outcomes = [
     'Strong brand clarity for every segment you serve',
-    'Validated pricing, packaging, and messaging for your service or product—backed by real conversion data',
-    'A playbook to scale acquisition without founder over-involvement'
+    'Validated pricing, offering, and messaging for your service or product',
+    'Operational systems & SOPs that keep growth humming without founder over-involvement'
   ];
 
   const deliverables = [
     { priority: 'Positioning & Narrative', outcome: 'Clear, differentiated value prop for each segment' },
-    { priority: 'Ideal Customer Profiles', outcome: 'Data-driven ICPs for enterprise, mid-market, self-serve' },
-    { priority: 'Pricing & Packaging', outcome: 'Tested plans, usage tiers, expansion levers' },
+    { priority: 'Ideal Customer Profiles', outcome: 'Data-driven ICPs for enterprise, mid-market, and self-serve' },
+    { priority: 'Pricing & Packaging', outcome: 'Tested plans, usage tiers, and expansion levers' },
     { priority: 'Acquisition Funnel', outcome: 'High-conversion funnel & onboarding journeys' },
-    { priority: 'Growth Agenda', outcome: 'Monthly experiment roadmap across content, paid, partnerships, affiliation programs' },
-    { priority: 'Metrics & Analytics', outcome: 'Baseline CAC, payback, LTV, product usage, churn' }
+    { priority: 'Growth Agenda', outcome: 'Monthly experiment roadmap across content, paid media, partnerships, affiliate programs' },
+    { priority: 'Growth-Supporting Ops', outcome: 'Documented SOPs & scaling roadmap with consultative recommendations' }
   ];
 
   const framework = [
     { step: '1. Position', description: 'market clarity, pricing strategy, messaging' },
-    { step: '2. Pilot', description: 'ICP targeting, funnel testing, conversion events' },
-    { step: '3. Playbook', description: 'repeatable growth engine, training & hand-off' }
+    { step: '2. Pilot', description: 'ICP targeting, funnel testing, conversion events + RevOps quick wins' },
+    { step: '3. Playbook', description: 'repeatable growth engine & supporting ops recommendations, training & hand-off' }
   ];
 
   return (
@@ -79,7 +79,7 @@ const GrowthSprintSection: React.FC = () => {
             ))}
           </div>
           <p className="text-white/50 mt-6 italic text-center">
-            Included assets: positioning docs, funnel maps, creative templates, Notion GTM hub, Loom hand-off videos.
+            Included assets: positioning docs, funnel maps, creative templates, SOP library, Notion GTM hub, and Loom hand-off videos.
           </p>
         </div>
 
@@ -105,18 +105,27 @@ const GrowthSprintSection: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-8 mb-8">
             <div className="bg-black/50 rounded-2xl p-8 border border-white/10">
               <h4 className="text-xl font-bold text-lazy-green mb-4">6-Month Sprint</h4>
-              <p className="text-4xl font-bold text-white mb-4">€30,000</p>
-              <p className="text-white/60">+ VAT if applicable (paid monthly)</p>
+              <p className="text-4xl font-bold text-white mb-4">monthly retainer</p>
+              <p className="text-white/60">renewable</p>
             </div>
             <div className="bg-black/50 rounded-2xl p-8 border border-white/10">
               <h4 className="text-xl font-bold text-lazy-green mb-4">3-Month Quick-Wins Sprint</h4>
-              <p className="text-4xl font-bold text-white mb-4">€18,000</p>
-              <p className="text-white/60">+ VAT if applicable (paid monthly, reduced scope)</p>
+              <p className="text-4xl font-bold text-white mb-4">monthly retainer</p>
+              <p className="text-white/60">reduced scope / renewable</p>
             </div>
           </div>
-          <p className="text-lazy-green font-semibold text-xl">
+          <p className="text-lazy-green font-semibold text-xl mb-8">
             Focus: Build the growth system—then step out.
           </p>
+          <a 
+            href="https://tidycal.com/isaurasantos/30-minute-meeting-with-isaura-lazy-ops" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group bg-lazy-green hover:bg-white text-black px-10 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 flex items-center space-x-3 hover:shadow-2xl cursor-pointer inline-flex"
+          >
+            <span>Book a quick call to discuss needs and receive a custom quote</span>
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+          </a>
         </div>
       </div>
     </section>

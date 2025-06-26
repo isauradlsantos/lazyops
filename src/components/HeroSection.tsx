@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-8 bg-black relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-8 bg-black relative overflow-hidden pt-24">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-lazy-green/5 via-transparent to-lazy-green/10"></div>
       
@@ -11,14 +11,14 @@ const HeroSection: React.FC = () => {
         <div className="space-y-8">
           <div className="space-y-6">
             <h1 className="text-6xl lg:text-7xl font-bold text-white leading-[0.9] tracking-tight">
-              Build a Predictable{' '}
-              <span className="text-lazy-green">Growth Engine</span>{' '}
-              in 6 Months
+              Build Your{' '}
+              <span className="text-lazy-green">Growth OS + Scalable Ops Plan</span>{' '}
+              in One Focused Sprint
             </h1>
             <p className="text-xl text-white/70 leading-relaxed max-w-lg">
               A fractional-CMO sprint led by Isaura Santos that sharpens your GTM, 
-              accelerates pipeline, and hands off a repeatable acquisition system 
-              your team can run on autopilot.
+              accelerates pipeline, installs a scalable ops backbone, and hands off a repeatable acquisition system 
+              your team can run on its own.
             </p>
           </div>
           

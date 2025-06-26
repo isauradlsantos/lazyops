@@ -15,13 +15,13 @@ const WhyChooseSection: React.FC = () => {
     },
     {
       icon: FileText,
-      title: 'Documented Growth System',
-      description: 'your team can run in-house.'
+      title: 'Documented Growth System & Ops Backbone',
+      description: 'your team can run both in-house.'
     },
     {
       icon: Repeat,
       title: 'Reusable Growth Playbook',
-      description: 'you can leverage long after the engagement, at virtually no additional cost.'
+      description: 'leverage the GTM plan and the supporting ops long after the engagement, at virtually no additional cost.'
     }
   ];
 

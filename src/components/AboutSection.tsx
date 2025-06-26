@@ -13,12 +13,8 @@ const AboutSection: React.FC = () => {
       <div className="max-w-5xl mx-auto text-center space-y-8">
         <h2 className="text-5xl font-bold text-white tracking-tight">Meet Isaura Santos</h2>
         <p className="text-2xl text-white/70 leading-relaxed max-w-4xl mx-auto">
-          <strong className="text-lazy-green font-semibold">Lazy Ops</strong> is the growth consulting practice of 
-          <strong className="text-lazy-green font-semibold"> Isaura Santos</strong>, an innovative and creative growth strategist 
-          and fractional CMO who has scaled AI startups, consulting services, design studios, 
-          multimedia production teams, brand agencies, and more. When you engage Lazy Ops, 
-          you work directly with Isaura—no agency layers, just senior-level expertise 
-          laser-focused on your metrics.
+          <strong className="text-lazy-green font-semibold">Lazy Ops</strong> is the solo consulting practice of <strong className="text-lazy-green font-semibold">Isaura Santos</strong>.
+          As your fractional CMO, she blends the creativity to drive growth with the structured discipline that supports ops—pairing sharp GTM strategy with an operational backbone that lasts. Isaura rallies teams and turns ideas into action by putting the right processes in place. Her experience spans AI startups, consulting services, design studios, content teams, brand agencies, and more. You work with her directly—no agency layers, just senior expertise ready to help you scale.
         </p>
         
         {/* Social icons */}

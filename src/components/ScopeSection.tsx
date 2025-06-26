@@ -3,17 +3,20 @@ import { Check, X } from 'lucide-react';
 
 const ScopeSection: React.FC = () => {
   const included = [
+    'Weekly strategy call',
     'GTM strategy & positioning docs',
     'Funnel design & copy templates',
-    'Experiment roadmap & analytics setup',
+    'Experiment roadmap & analytics interpretation',
+    'Ops process mapping, RevOps quick wins, SOP hand-off',
     'Playbook creation + 30-day Slack Q&A buffer'
   ];
 
   const notIncluded = [
-    'Managing daily paid-ad operations',
+    'Managing daily paid-ad operations or building dashboards',
     'Hiring or HR processes',
-    'Ongoing community/event management',
-    'Long-term ops/maintenance beyond 30-day buffer'
+    'Ongoing community / event management or hands-on social-media management',
+    'Full ERP / finance-system implementation',
+    'Long-term ops / maintenance beyond the 30-day buffer'
   ];
 
   return (
