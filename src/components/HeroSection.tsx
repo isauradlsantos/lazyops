@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:text-7xl font-bold text-white leading-tight sm:leading-[1.1] lg:leading-[0.9] tracking-tight">
               Build Your{' '}
               <span className="text-lazy-green">Growth OS + Scalable Ops Plan</span>{' '}
-              in One Focused Sprint
+              in 6 Months
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed max-w-full sm:max-w-lg">
               A fractional-CMO sprint led by Isaura Santos that sharpens your GTM, 
