@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
@@ -24,6 +25,7 @@ function App() {
       <NextStepsSection />
       <Footer />
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
