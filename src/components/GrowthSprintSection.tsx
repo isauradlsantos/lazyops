@@ -35,7 +35,7 @@ const GrowthSprintSection: React.FC = () => {
             </div>
             <div className="flex items-center space-x-2 sm:space-x-3 bg-white/5 rounded-full px-4 sm:px-6 py-2 sm:py-3 border border-white/10">
               <Target className="w-5 h-5 text-lazy-green" />
-              <span>Fractional CMO • ~10 high-ROI hours/week <span className="text-xs sm:text-sm">(hours for context; success is judged on deliverables)</span></span>
+              <span>Fractional CMO / Director of Growth</span>
             </div>
           </div>
         </div>
