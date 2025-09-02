@@ -10,6 +10,7 @@ import WhyChooseSection from './components/WhyChooseSection';
 import ProofSection from './components/ProofSection';
 import NextStepsSection from './components/NextStepsSection';
 import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <ProofSection />
       <NextStepsSection />
       <Footer />
+      <CookieBanner />
       <Analytics />
       <SpeedInsights />
     </div>

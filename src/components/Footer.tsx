@@ -12,12 +12,14 @@ const Footer: React.FC = () => {
           />
           <span className="text-3xl font-bold text-white tracking-tight">Lazy Ops</span>
         </div>
-        <p className="text-white/60 text-lg">
-          Growth consulting by Isaura Santos
-        </p>
-        <p className="text-white/40 text-sm max-w-3xl mx-auto leading-relaxed">
-          
-        </p>
+        <p className="text-white/60 text-lg">Growth consulting by Isaura Santos</p>
+        <div className="flex items-center justify-center gap-6 text-white/60 text-sm">
+          <a href="/privacy" className="underline hover:text-white transition-colors">Privacy policy</a>
+          <span className="text-white/30">•</span>
+          <a href="/terms" className="underline hover:text-white transition-colors">Terms & conditions</a>
+          <span className="text-white/30">•</span>
+          <a href="/cookies" className="underline hover:text-white transition-colors">Cookie policy</a>
+        </div>
       </div>
     </footer>
   );

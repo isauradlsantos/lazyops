@@ -32,17 +32,17 @@ const NextStepsSection: React.FC = () => {
   return (
     <section className="py-32 px-8 bg-black">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-5xl font-bold text-white mb-16 tracking-tight">Next Steps</h2>
+        <h2 className="text-4xl font-bold text-white mb-16 tracking-tight">Next Steps</h2>
         <div className="grid lg:grid-cols-3 gap-12 mb-16">
           {steps.map((step, index) => (
             <div key={index} className="relative group">
               <div className="bg-zinc-950/50 backdrop-blur-sm rounded-3xl p-10 hover:bg-zinc-900/50 transition-all duration-300 border border-white/10 hover:border-lazy-green/30">
-                <div className="w-20 h-20 bg-lazy-green/20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-lazy-green/30 transition-all duration-300">
-                  <step.icon className="w-10 h-10 text-lazy-green" />
+                <div className="w-16 h-16 bg-lazy-green/20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-lazy-green/30 transition-all duration-300">
+                  <step.icon className="w-8 h-8 text-lazy-green" />
                 </div>
-                <div className="text-4xl font-bold text-lazy-green mb-4">{step.number}</div>
-                <h3 className="text-2xl font-bold text-white mb-4">{step.title}</h3>
-                <p className="text-white/70 text-lg">{step.description}</p>
+                <div className="text-3xl font-bold text-lazy-green mb-4">{step.number}</div>
+                <h3 className="text-xl font-bold text-white mb-4">{step.title}</h3>
+                <p className="text-white/70 text-base">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-1/2 -right-6 transform -translate-y-1/2">
@@ -53,7 +53,7 @@ const NextStepsSection: React.FC = () => {
           ))}
         </div>
         <div className="bg-gradient-to-r from-lazy-green to-green-400 rounded-3xl p-12">
-          <h3 className="text-3xl font-bold text-black mb-6">
+          <h3 className="text-2xl font-bold text-black mb-6">
             Ready to unlock predictable, compounding growth?
           </h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

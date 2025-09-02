@@ -16,9 +16,7 @@ const HeroSection: React.FC = () => {
               in 6 Months
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed max-w-full sm:max-w-lg">
-              A fractional-CMO sprint led by Isaura Santos that sharpens your GTM, 
-              accelerates pipeline, installs a scalable ops backbone, and hands off a repeatable acquisition system 
-              your team can run on its own.
+              A fractional-CMO/CGO sprint led by Isaura Santos that sharpens your GTM, accelerates pipeline, installs a scalable ops backbone, and hands off a repeatable acquisition system your team can run on its own.
             </p>
           </div>
           
