@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
           Growth consulting by Isaura Santos
         </p>
         <p className="text-white/40 text-sm max-w-3xl mx-auto leading-relaxed">
-          Helped a two-person services shop jump from €2k to €18k MRR in 30 days—and took a B2B startup from €10k proposals to €25k wins (now testing €30k) in just three months.
+          
         </p>
       </div>
     </footer>
