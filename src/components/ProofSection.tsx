@@ -1,54 +1,47 @@
 import React from 'react';
-import { TrendingUp, DollarSign } from 'lucide-react';
 
 const ProofSection: React.FC = () => {
-  const cases = [
-    {
-      title: 'Two-Person Service Startup (2024)',
-      snapshot: 'Began at €2,120 /mo with only two operational co-founders.',
-      results: '€18,228 in Month 1 (+760%), €72,902.58 in the first 7 months, €101,265 in year one—even after a deliberate slow-down.',
-      icon: TrendingUp
-    },
-    {
-      title: 'B2B Startup – Pricing Reset (2025)',
-      snapshot: 'Proposals were stuck at €10k and closing inconsistently. Isaura repackaged the offer and reframed its value.',
-      results: 'New €25k proposals were accepted within the first 3 months, boosting average deal size 150%—and we\'re now actively testing €30k proposals to capture even more upside.',
-      icon: DollarSign
-    }
-  ];
-
   return (
-    <section className="py-32 px-8 bg-zinc-950">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-5xl font-bold text-white mb-16 text-center tracking-tight">Proof in the Wild</h2>
-        <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          {cases.map((caseStudy, index) => (
-            <div key={index} className="bg-black/50 backdrop-blur-sm rounded-3xl p-10 border border-white/10 hover:border-lazy-green/30 transition-all duration-300">
-              <div className="flex items-center mb-8">
-                <div className="w-16 h-16 bg-lazy-green/20 rounded-2xl flex items-center justify-center mr-6">
-                  <caseStudy.icon className="w-8 h-8 text-lazy-green" />
-                </div>
-                <h3 className="text-2xl font-bold text-white">{caseStudy.title}</h3>
-              </div>
-              <div className="space-y-6">
-                <div>
-                  <h4 className="font-semibold text-lazy-green mb-3 text-lg">Snapshot</h4>
-                  <p className="text-white/70 text-lg leading-relaxed">{caseStudy.snapshot}</p>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-lazy-green mb-3 text-lg">Results</h4>
-                  <p className="text-white/70 text-lg leading-relaxed">{caseStudy.results}</p>
-                </div>
-              </div>
-            </div>
-          ))}
+    <section className="py-10 sm:py-14 md:py-16 px-4 sm:px-6 md:px-8 lg:px-12 bg-black">
+      <div className="max-w-5xl mx-auto space-y-6 sm:space-y-8">
+        <div className="mb-8 sm:mb-10 md:mb-12 text-center space-y-3">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight">
+            Proof from recent client work
+          </h2>
+          <p className="text-sm sm:text-base md:text-lg text-white/70">
+            Recent examples of system-led growth installed during founding-level engagements.
+          </p>
         </div>
-        <div className="bg-black/50 backdrop-blur-sm rounded-3xl p-12 text-center border border-white/10">
-          <h3 className="text-3xl font-bold text-lazy-green mb-6">Takeaway</h3>
-          <p className="text-white/80 text-lg leading-relaxed max-w-4xl mx-auto">
-            Whether it's multiplying monthly revenue for a lean two-person team or ratcheting deal size 
-            from €10k to €30k, the Growth Sprint installs a durable, scalable system 
-            that grows on your terms.
+
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+          <div className="rounded-2xl p-6 sm:p-7 md:p-8 border border-white/10 bg-black/40">
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">
+              Service business (2024)
+            </h3>
+            <p className="text-sm sm:text-base text-white/60 mb-4 sm:mb-5 md:mb-6">Founding-level growth & ops engagement</p>
+            <div className="space-y-4 md:space-y-5">
+              <p className="text-xl sm:text-2xl md:text-3xl font-bold text-lazy-green leading-tight">€2k → €18k MRR in 30 days</p>
+              <p className="text-base sm:text-lg md:text-xl text-white/80">€101k year-one revenue</p>
+              <p className="text-base sm:text-lg text-white/60">Built on a ~16-hour weekly execution system</p>
+            </div>
+          </div>
+          
+          <div className="rounded-2xl p-6 sm:p-7 md:p-8 border border-white/10 bg-black/40">
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">
+              B2B startup — growth reset (2025)
+            </h3>
+            <p className="text-sm sm:text-base text-white/60 mb-4 sm:mb-5 md:mb-6">Founding-level growth reset engagement</p>
+            <div className="space-y-4 md:space-y-5">
+              <p className="text-xl sm:text-2xl md:text-3xl font-bold text-lazy-green leading-tight">Average deal size €10k → €25k+ in 90 days</p>
+              <p className="text-base sm:text-lg md:text-xl text-white/80">Clearer positioning and productized offers</p>
+              <p className="text-base sm:text-lg text-white/60">Execution stabilized and stopped leaking energy</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-center pt-2">
+          <p className="text-xs sm:text-sm md:text-base text-white/60">
+            Results driven by system installation — not tactics or one-off campaigns.
           </p>
         </div>
       </div>

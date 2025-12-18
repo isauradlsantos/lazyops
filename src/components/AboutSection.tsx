@@ -14,7 +14,7 @@ const AboutSection: React.FC = () => {
         <h2 className="text-5xl font-bold text-white tracking-tight">Meet Isaura Santos</h2>
         
         <p className="text-lg text-white/70 leading-relaxed max-w-4xl mx-auto text-left">
-          <strong className="text-lazy-green font-semibold">Lazy Ops</strong> is the solo consulting practice of <strong className="text-lazy-green font-semibold">Isaura Santos</strong>. As your fractional CMO/CGO, she blends the creativity to drive growth with the structured discipline that supports ops—pairing sharp GTM strategy with an operational backbone that lasts. Isaura rallies teams and turns ideas into action by putting the right processes in place. Her experience spans AI startups, consulting services, design studios, content teams, brand agencies, and more. You work with her directly. No agency layers, just senior expertise ready to help you scale.
+          <strong className="text-lazy-green font-semibold">Lazy Ops</strong> is the solo consulting practice of <a href="https://www.linkedin.com/in/isaurasantos/" target="_blank" rel="noopener noreferrer" className="text-lazy-green font-semibold hover:text-green-400 underline transition-colors"><strong>Isaura Santos</strong></a>. As your fractional CMO/CGO, she blends the creativity to drive growth with the structured discipline that supports ops—pairing sharp GTM strategy with an operational backbone that lasts. Isaura rallies teams and turns ideas into action by putting the right processes in place. Her experience spans AI startups, consulting services, design studios, content teams, brand agencies, and more. You work with her directly. No agency layers, just senior expertise ready to help you scale.
         </p>
         
         {/* Social icons */}

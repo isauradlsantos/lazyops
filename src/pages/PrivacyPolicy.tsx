@@ -52,7 +52,7 @@ const PrivacyPolicy: React.FC = () => {
 
         <h2 className="text-2xl font-semibold mt-8 mb-3">Contact</h2>
         <p className="text-white/80 leading-relaxed">
-          Lazy Ops — owned by Isaura Santos
+          Lazy Ops — owned by <a href="https://www.linkedin.com/in/isaurasantos/" target="_blank" rel="noopener noreferrer" className="text-lazy-green underline hover:text-green-400 transition-colors">Isaura Santos</a>
           <br />📧 <a href="mailto:isauraconsulting@gmail.com" className="text-lazy-green underline">isauraconsulting@gmail.com</a>
           <br />📍 Rua Peixinho Júnior 1, 4E, 2770-136, Paço de Arcos, Portugal
         </p>
